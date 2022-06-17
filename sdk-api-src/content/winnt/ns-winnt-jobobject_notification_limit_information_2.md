@@ -438,7 +438,7 @@ If the <i>LimitFlags</i> parameter specifies <b>JOB_OBJECT_LIMIT_JOB_MEMORY_LOW<
 
 ### -field IoRateControlToleranceInterval
 
-If the <i>LimitFlags</i> parameter specifies <b>JOB_OBJECT_IO_LIMIT_RATE_CONTROL</b>, this member specifies the interval during which a job's I/O usage is monitored to determine whether the job has exceeded its I/O rate control limits. Otherwise, this member is ignored. 
+If the <i>LimitFlags</i> parameter specifies <b>JOB_OBJECT_LIMIT_IO_RATE_CONTROL</b>, this member specifies the interval during which a job's I/O usage is monitored to determine whether the job has exceeded its I/O rate control limits. Otherwise, this member is ignored. 
 
 This member can be one of the following values. If no value is specified, <b>ToleranceIntervalShort</b> is used.
 
